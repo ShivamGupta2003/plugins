@@ -79,7 +79,7 @@ export default function Applications() {
   });
 
   return (
-    <SectionBox title={`Applications (${tableData.length})`}>
+    <SectionBox title={`Applications (${tableData.length})`} paddingTop={2}>
       <Table
         data={tableData}
         columns={[

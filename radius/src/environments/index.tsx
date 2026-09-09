@@ -93,7 +93,7 @@ export default function Environments() {
   });
 
   return (
-    <SectionBox title={`Environments (${tableData.length})`}>
+    <SectionBox title={`Environments (${tableData.length})`} paddingTop={2}>
       <Table
         data={tableData}
         columns={[
